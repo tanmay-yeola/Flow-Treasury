@@ -1,0 +1,30 @@
+node_modules
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Hardhat
+artifacts/
+cache/
+
+# Environment variables
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# Build output
+frontend/dist/
+dist/
+build/
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Coverage
+coverage/
